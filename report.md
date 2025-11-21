@@ -36,10 +36,11 @@ This report summarizes a collaborative experiment involving two CNN models train
   - Dense(128) → Sigmoid  
 
 - **Model V2 (User 2)**
-  - Conv2D: 8 → 16 → 32 filters  
+  - Conv2D: 32 → 64 filters  
+  - BatchNormalization  
   - 30% Dropout  
-  - Global Average Pooling  
-  - Dense(32) → Sigmoid  
+  - MaxPooling2D + Global Average Pooling  
+  - Dense(64) → Sigmoid  
 
 ---
 
