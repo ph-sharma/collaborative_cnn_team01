@@ -7,7 +7,7 @@ This repository contains a collaborative machine learning project focused on bin
 ## Project Structure
 ```
 ├── models/                 # Trained model files (.h5)
-├── notebooks/              # Jupyter notebooks for training/testing
+├── notebook/              # Jupyter notebooks for training/testing
 │   ├── train_v1.ipynb
 │   ├── train_v2.ipynb
 │   ├── test_v1.ipynb
