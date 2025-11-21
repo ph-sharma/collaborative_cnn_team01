@@ -5,20 +5,21 @@
 This repository contains a collaborative machine learning project focused on binary image classification for cats and dogs. Two separate Users developed **Convolutional Neural Network (CNN)** models on different datasets to evaluate training performance and cross-dataset generalization.
 
 ## Project Structure
-
-├── models/ # Trained model files (.h5)
-├── notebooks/ # Jupyter notebooks for training/testing
-│ ├── train_v1.ipynb
-│ ├── train_v2.ipynb
-│ ├── test_v1.ipynb
-│ └── test_v2.ipynb
-├── results/ # Training/validation/test metrics
-├── data/ # Dataset directories (manual download)
-│ ├── user1/ # Dataset for User 1
-│ └── user2/ # Dataset for User 2
-├── report.md # Detailed analysis
-├── requirements.txt # Dependencies
-└── readme.md # This file
+```
+├── models/                 # Trained model files (.h5)
+├── notebooks/              # Jupyter notebooks for training/testing
+│   ├── train_v1.ipynb
+│   ├── train_v2.ipynb
+│   ├── test_v1.ipynb
+│   └── test_v2.ipynb
+├── results/                # Training/validation/test metrics
+├── data/                   # Dataset directories (manual download)
+│   ├── user1/              # Dataset for User 1
+│   └── user2/              # Dataset for User 2
+├── report.md               # Detailed analysis
+├── requirements.txt        # Dependencies
+└── readme.md               # This file
+```
 
 ### Main Libraries
 
